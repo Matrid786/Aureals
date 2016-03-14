@@ -1,0 +1,5 @@
+# Remove or modify these lines to allow access to statistics
+<Files "*.html">
+  Deny from all
+  Allow from 192.168.0.
+</Files>

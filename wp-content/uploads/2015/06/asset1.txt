@@ -1,0 +1,17 @@
+{
+  "asset_ids": [
+    "AbeJc2mRgpTahuiTUesyHRMxTKuGUav8BF"
+  ],
+  "contract_url": "https://www.coinprism.info/asset/AbeJc2mRgpTahuiTUesyHRMxTKuGUav8BF",
+  "name_short": "AUREALS",
+  "name": "ICON CAPITAL RESERVE SA",
+  "issuer": "ICON CAPITAL RESERVE SA",
+  "description": "AUREALS™ are denominated as a one-gram weight and measure of physical gold.",
+  "description_mime": "text/x-markdown; charset=UTF-8",
+  "type": "CryptoToken",
+  "divisibility": 0,
+  "link_to_website": true,
+  "icon_url": "https://coinprism.blob.core.windows.net/profile/icon/AbeJc2mRgpTahuiTUesyHRMxTKuGUav8BF.jpg",
+  "image_url": "https://coinprism.blob.core.windows.net/profile/image/AbeJc2mRgpTahuiTUesyHRMxTKuGUav8BF.jpg",
+  "version": "1.0"
+}

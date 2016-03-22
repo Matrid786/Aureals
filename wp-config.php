@@ -14,6 +14,8 @@
  * @package WordPress
  */
 
+ require( dirname( __FILE__ ) . '/.env.php' );
+
  // ** MySQL settings - You can get this info from your web host ** //
  $url = parse_url(getenv('DATABASE_URL') ? getenv('DATABASE_URL') : getenv('CLEARDB_DATABASE_URL'));
 
@@ -44,14 +46,6 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'nt3iouleeoonhsqa6l0gpqspeal4wvqqvvljntpztjyf0ykwwmw1ye0yxry099la');
-define('SECURE_AUTH_KEY',  'fhkwnqg79imucwkpnrvkiwd87st8lkxver8qkuml0nwqxj3sps7p69ufwrvpwucr');
-define('LOGGED_IN_KEY',    'rmhxl7ymdvtdatq2son7oshbtnmgdz2flop6edlxujk37inngjfex3vzmvrm9392');
-define('NONCE_KEY',        'zyfb9zrlhah2ll1huyfmcvtlj39rlrxvcborggnsdfcx8ddhnfdryj0hrj4k9w51');
-define('AUTH_SALT',        'hqzfb9zvv6rg0eui2mk7rz2vaypro3ftm9tu9prishpaaiuqhlajtpox4x5bnun5');
-define('SECURE_AUTH_SALT', 'logok8hw0mhbyuqxajpp71nmebzl8ckqwzgo6vcnz39g3egubsn1mkd1fhvbsy64');
-define('LOGGED_IN_SALT',   'uetmkpj7ela4zpt43abdman8rhmgxhlozpsdkd1ot7jnqanm2sbpcszw6c8kn57r');
-define('NONCE_SALT',       'uupqvteduhruu7ecj50ejksqdxy03vtvlmhpisiv85hl45r1ob6sexoldloueyvc');
 define('AUTH_KEY',         getenv('AUTH_KEY'));
 define('SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY'));
 define('LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY'));
